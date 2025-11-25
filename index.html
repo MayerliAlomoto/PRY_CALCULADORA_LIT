@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora Pastel</title>
+
+  <!-- BOOTSTRAP LOCAL -->
+  <link rel="stylesheet" href="./vendor/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+
+  <!-- ESTILO GLOBAL PARA EL FONDO EXTERNO -->
+  <style>
+  
+    body {
+      background-color: hsl(318, 39%, 59%) !important; 
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column; 
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+  
+    .container {
+        width: 100%;
+        max-width: 400px; 
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="container mt-0">
+    <h2 class="text-center mb-4 text-white">Calculadora LIT - ABIGAIL </h2>
+
+    <basic-calculator></basic-calculator>
+  </div>
+
+  <!-- JS DE BOOTSTRAP -->
+  <script src="./vendor/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+
+  <!--  IMPORTA  COMPONENTE -->
+  <script type="module" src="./src/main.js"></script>
+
+</body>
+</html>
